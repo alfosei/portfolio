@@ -37,3 +37,7 @@ projects.forEach(project => {
     projectContainer.appendChild(projectElement);
 });
 
+const musicProjectButton = document.querySelector('.music-projects-button');
+musicProjectButton.addEventListener('click', () => {
+    window.location.href = 'https://bio.site/jayadi';
+});
